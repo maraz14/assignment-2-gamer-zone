@@ -367,4 +367,8 @@ list-style: none;
     padding-bottom: 4em;
     padding-top: 1em;
 }
+.footer-container h2{
+    font-size: 45px;
+    font-weight: 700;
+}
 
