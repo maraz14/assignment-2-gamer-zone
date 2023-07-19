@@ -2,6 +2,9 @@
     padding: 0%;
     margin: 0%;
 }
+body{
+    font-family: 'Lato', sans-serif;
+}
 .nav-logo{
     display: flex;
     align-items: center;
@@ -13,6 +16,11 @@
     padding:10px 20px;
     display: flex;
     gap: 1em;
+}
+.banner-text h1{
+    font-size: 48px;
+font-style: normal;
+font-weight: 600;
 }
 .g-color{
     color: #FF42A5;
@@ -26,10 +34,29 @@
     text-decoration: none;
    
 }
+.nav-bar h2 {
+    font-size: 45px;
+font-style: normal;
+font-weight: 700;
+}
+.btn-bannergoat{
+    display: flex;
+    gap:1em;
+    margin-top: 20px;
+}
+.menu p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;  
+}
 .menu a{
 text-decoration: none;
 color: black;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
 }
+
 
 .nav-bar{
     display: flex;
@@ -42,35 +69,154 @@ color: black;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: #FAF7FD;
+    
 
 }
+.goat{
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   
+}
+.bannerlogo-1{
+    display: flex;
+    gap:.5em;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.bannerlogo-1 p{
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+}
+.bannerlogo-2 p{
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+}
+.bannerlogo-3 p{
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+}
+.bannerlogo-2{
+    display: flex;
+    gap:.5em;
+    padding-bottom: 5px;
+}
+.bannerlogo-3{
+    display: flex;
+    gap:.5em;
+    padding-bottom: 5px;
+}
 .btn{
-    border-radius: 18px;
+    border-radius: 48px;
     border: none;
-    padding: 10px 20px;
+    padding: 21px 40px;
     color: white;
     
 }
 .sign{
 background: #FF42A5;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+
 }
 .go{
     background: #4EC5F7;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
 }
-
+.banner{
+    background: url(../images/Group\ 14.png);
+    align-items: center;
+    background-repeat: no-repeat ;
+    
+  
+   
+}
 .banner-text ul{
     list-style: none;
+    font-weight: 800px;
+    
+    
 }
 .banner-2{
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: right;
+    background: #FFF9FC;
+    margin-top: 55px;
 }
+.banner-2 h1{
+    font-size: 48px;
+font-style: normal;
+font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+padding-top: 95px;
+}
+.banner-2 p{
+    font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 45px;
+}
+.banner-2 .sign{
+    margin-top: 32px;
+
+}
+
+.unleash{
+    color: #534C64;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 96px;
+
+}
+
 /*card-section*/
+.gradiant{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 48px;
+font-style: normal;font-weight: 700;
+
+}
+.card-text h1{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 120px;
+}
+.card-text h4{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 46px;
+}
+.cards p{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-bottom: 120px;
+    padding-top: 24px;
+}
 .card-text{
-   
     text-align: center;
 }
 .cards{
@@ -80,14 +226,110 @@ background: #FF42A5;
     
 }
 /*playgames*/
-.playgames-container{
-    display:flex;
+.hero-image{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 300px;
+    line-height: 2em;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.hero-image-text{
+    width: 50%;
+    text-align: right;
+}
+.hero-image-text p{
+   padding-top: 20px;
+   color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.hero-image-text h2{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.hero-image-text h3{
+    font-weight: 700;
+    font-size: 26px;
+}
+.main-img{
+    width: 50%;
+    position: relative;
+    padding-right: 235px;
+}
+.main-img > img{
+    width: 100%;
+}
+.main-img .inner-img{
+    position: absolute;
+    top: 60%;
+    left: -20%;
+}
+.inner-img img{
+    width: 320px;
 }
 
-.icon-btn{
+
+
+
+
+/*games-btn*/
+
+.btn-container{
+    background-color: #FFF9FC;
+    margin-top: 120px;
     display: flex;
     justify-content: center;
+}
+.btn-all-icon{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.btn-icon{
+    border-radius: 35px;
+    background: #FFF;
+    padding: 12px 12px;
+    padding-right: 25px;
+    border: none;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 220px;
+}
+.btn-icon h4{
+    color: #0B0223;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.btn-inner:hover h4{
+    color: #FF42A5;
+   
+}
+.btn-icon p{
+    color: #000000;
+    font-size: 15px;
+    font-weight: 650;
+}
+.btn-icon:hover{
+    border-radius: 50px;
+    border: 2px solid #FF42A5;
+    cursor: pointer;
 }
 
 

@@ -6,6 +6,11 @@
     <title>Gamer</title>
     <link rel="stylesheet" href="/styles/style.css">
     <script src="https://kit.fontawesome.com/754a82178e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="./images/Frame.png" type="image/x-icon">
+<link rel="stylesheet" href="styles/styleresponsive.css">
 </head>
 
 <body>
@@ -33,17 +38,19 @@
     </header>
     <main>
         <!--banner-part-->
-        <section>
+        <section >
             <div class="banner">
                 <div class="banner-text">
-                    <h1>PLAY LIKE THE <br>G.O.A.T</h1>
+                    <h1>PLAY LIKE THE <br><span class=" goat">G.O.A.T</span></h1>
                     <ul>
-                        <li>1-click instant play</li>
-                        <li>No Download</li>
-                        <li>1000s of supported online games</li>
+                        <li class="bannerlogo-1"><a href=""><i class="fa-regular fa-circle-play" style="color: #ff000d;"></i></a><p >1-click instant play</p></li>
+                        <li class="bannerlogo-2"> <a href=""><i class="fa-solid fa-download" style="color: #ff0000;"></i></a><p>No Download</p></li>
+                        <li class="bannerlogo-3"><a href=""><i class="fa-light fa-user"></i></a><p>1000s of supported online games</p></li>
                     </ul>
-                    <button class="btn sign">SIGN IN</button>
-                    <button class="btn go">GO ROUGE</button>
+                    <div class="btn-bannergoat">
+                       <div><button class="btn sign">SIGN IN</button></div> 
+                       <div><button class="btn go">GO ROUGE</button></div>
+                    </div>
                  </div>
                 <div class="banner-img">
                     <img src="./images/Group 18.png" alt="">
@@ -59,9 +66,9 @@
                 <div class="banner-text-2">
                     <h1>We are gamer</h1>
                     <p>An international digital games and entertainment <br> company. We develop, publish and distribute multiplayer <br> mobile games. We reach over 400 million players each <br> month and our audience keeps growing.</p>
-                    <button>KNOW MORE</button>
-                    <p> Our Purpose...</p>
-                    <p>“unleash the gamer in everyone”</p>
+                    <button class="btn sign ">KNOW MORE</button>
+                    <p > Our Purpose...</p>
+                    <h3 class="unleash">“unleash the gamer in everyone”</h3>
                 </div>
             </div>
         </section>
@@ -70,7 +77,7 @@
             <div class="card-container">
                 <div class="card-text">
                     <h1>Online Games <span class=gradiant>Funny Videos</span></h1>
-                    <p>A Collection of Hilarious Videos to Brighten Your Day</p>
+                    <h4>A Collection of Hilarious Videos to Brighten Your Day</h4>
                 </div>
                 <div class="cards">
                     <div class="card">
@@ -93,84 +100,37 @@
             </div>
         </section>
         <!--play-games-->
-        <section>
-            <div class="playgames-container">
-                <div class="playgames-images">
-                    <img class="img-1" src="./images/Rectangle 67.png" alt="">
-                    <img class="img-2" src="./images/Rectangle 78.png" alt="">
-
-                </div>
-                <div class="playgames-text">
-                    <h1>Play Games <br> Online Anywhere,<br> Anytime!</h1>
-                    <p>PC. dad’s phone, mom’s tablet, or your Chromebook,<br> with Gamer you can play your favorite games online <br> for free, any time, anywhere , on any device.</p>
+        <section class="hero-image">
+            <div class="hero-image-text">
+               <h2><span class="g-color">Play Instantly,<br></span>No Downloads<br> No Installs.</h2> 
+    
+                <p>Play games online for free without<br>
+                    downloading. Just click the Play button<br>
+                    and play instantly in your browser.</p>
+            </div>
+            <div class="main-img">
+                <img src="./images/Rectangle 55.png">
+                <div class="inner-img">
+                    <img src="./images/Rectangle 66.png">
                 </div>
             </div>
         </section>
-        <section>
-            <!--icon-buuton-container-->
-            <div class="btn-container">
-
-                <div class="icon-btn">
-                    <div class="img-1">
-                        <img src="./images/Rectangle 11.png" alt="">
-                    </div>
-                    <p>Action Games</p>
+            <!--games-icon-btn-->
+            <section class="btn-container">
+                <div class="btn-all-icon">
+        
+                    <button class="btn-icon"><img src="./images/Rectangle 11.png "><h4>Action Games</h4></button>
+                    <button class="btn-icon"><img src="./images/Rectangle 12.png"><h4>Action Games</h4></button>
+                    <button class="btn-icon"><img src="./images/Rectangle 13.png"><h4>Action Games</h4></button>
+                    <button class="btn-icon"><img src="./images/Rectangle 14.png"><h4>Action Games</h4></button>
+                    <button class="btn-icon"><img src="./images/Rectangle 15.png"><h4>Action Games</h4></button>
+                    <button class="btn-icon"><img src="./images/Rectangle 16.png"><h4>Action Games</h4></button>
+                    <button class="btn-icon"><img src="./images/Rectangle 17.png"><h4>Action Games</h4></button>
+                    <button class="btn-icon"><img src="./images/Rectangle 18.png"><h4>Action Games</h4></button>
+                    <button class="btn-icon"><img src="./images/Rectangle 19.png"><h4>Action Games</h4></button>
+        
                 </div>
-               
-                <div class="icon-btn">
-                    <div class="img-2">
-                        <img src="./images/Rectangle 12.png" alt="">
-                    </div>
-                    <p>Action Games</p>
-                </div>
-                <div class="icon-btn">
-                    <div class="img-1">
-                        <img src="./images/Rectangle 11.png" alt="">
-                    </div>
-                    <p>Action Games</p>
-                </div>
-                <div class="icon-btn">
-                    <div class="img-1">
-                        <img src="./images/Rectangle 11.png" alt="">
-                    </div>
-                    <p>Action Games</p>
-                </div>
-                <div class="icon-btn">
-                    <div class="img-1">
-                        <img src="./images/Rectangle 11.png" alt="">
-                    </div>
-                    <p>Action Games</p>
-                </div>
-                <div class="icon-btn">
-                    <div class="img-1">
-                        <img src="./images/Rectangle 11.png" alt="">
-                    </div>
-                    <p>Action Games</p>
-                </div>
-                <div class="icon-btn">
-                    <div class="img-1">
-                        <img src="./images/Rectangle 11.png" alt="">
-                    </div>
-                    <p>Action Games</p>
-                </div>
-                <div class="icon-btn">
-                    <div class="img-1">
-                        <img src="./images/Rectangle 11.png" alt="">
-                    </div>
-                    <p>Action Games</p>
-                </div>
-                
-                    <button class="icon-btn"><img src="./images/Rectangle 12.png" alt=""><p>Adventure Games</p></button>
-                    <button class="icon-btn"><img src="./images/Rectangle 13.png" alt=""><p>Arcade Games</p></button>
-                    <button class="icon-btn"><img src="./images/Rectangle 14.png" alt=""><p>Educational Games</p></button>
-                    <button class="icon-btn"><img src="./images/Rectangle 15.png" alt=""><p>Word Games</p></button> 
-                    <button class="icon-btn"><img src="./images/Rectangle 16.png" alt=""><p>Role Playing Games</p></button>
-                    <button class="icon-btn"><img src="./images/Rectangle 17.png" alt=""><p>Music & Audio Games</p></button>
-                    <button class="icon-btn"><img src="./images/Rectangle 18.png" alt=""><p>Puzzle Games</p></button>
-                    <button class="icon-btn"><img src="./images/Rectangle 19.png" alt=""><p>Strategy Games</p></button>
-               
-            </div>
-        </section>
+            </section>
 
     </main>
 

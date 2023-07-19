@@ -1,0 +1,24 @@
+@media  screen and (max-width: 576px){
+
+    .nav-bar{
+        flex-direction: column;
+        height: 220px;
+        padding-left: 360px;
+    }
+    .nav-logo{
+        flex-direction: column;
+    }
+
+}
+@media  screen and (max-width: 576px){
+
+    .banner{
+        flex-direction: column;
+        height: 220px;
+        padding-left: 200px;
+    }
+    .banner-text{
+        flex-direction: column;
+    }
+
+}
