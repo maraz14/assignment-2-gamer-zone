@@ -1,0 +1,131 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+.nav-btn{
+    border: none;
+    border-radius: 5px;
+    padding:10px 20px;
+    display: flex;
+    gap: 1em;
+}
+.g-color{
+    color: #FF42A5;
+}
+.nav-menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    gap: 1em;
+    text-decoration: none;
+   
+}
+.menu a{
+text-decoration: none;
+color: black;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    background: #FFFFFF;
+    height: 90px;
+    align-items: center;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #FAF7FD;
+
+}
+.btn{
+    border-radius: 18px;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    
+}
+.sign{
+background: #FF42A5;
+}
+.go{
+    background: #4EC5F7;
+}
+
+.banner-text ul{
+    list-style: none;
+}
+.banner-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: right;
+}
+/*card-section*/
+.card-text{
+   
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    
+}
+/*playgames*/
+.playgames-container{
+    display:flex;
+}
+
+.icon-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*footer-container*/
+.footer-container{
+    background: #0B0223;
+    color: white;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding-top: 4em;
+    padding-bottom: 2em;
+}
+.footer-tittle{
+display: flex;
+justify-content: center;
+gap: 3em;
+list-style: none;
+}
+
+.footer-p{
+    text-align: center;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    list-style: none;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    
+}
+.footer-p{
+    padding-bottom: 4em;
+    padding-top: 1em;
+}
+
